@@ -1,0 +1,233 @@
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.accent-font {
+  font-family: 'Audiowide', sans-serif;
+}
+
+.header {
+  margin-bottom: 25px;
+}
+
+.navbar {
+  background: transparent;
+  border-color: #333;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
+  color: white;
+}
+
+.intro {
+  padding-bottom: 10px;
+}
+
+.footer {
+  border-top: 1px solid #333;
+  padding-top: 25px;
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+
+a, a:hover, a:focus {
+  color: #eee;
+  text-decoration: none;
+}
+
+.intro-text {
+  font-size: 24px;
+  padding-left: 36px;
+}
+
+.intro-text .intro-icon {
+  margin-left: -36px;
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+}
+
+.brand-icon {
+  margin-right: 12px;
+}
+
+.header-text {
+  font-size: 36px;
+}
+
+.form-control {
+  background: #000;
+  color: #eee;
+  font-size: 36px;
+  height: 64px;
+  border-color: #ccc;
+  border-width: 1px;
+  border-radius: 4;
+  border-style: solid;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+.form-control:focus, .form-control:hover {
+  border-color: #66afe9;
+  color: #eee;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.planet, .moon {
+  min-height: 100px;
+  margin-bottom: 40px;
+  padding: 5px;
+}
+
+.planet-image, .moon-image {
+  float: left;
+  height: 100px;
+  width: 100px;
+  background-size: contain;
+  margin-right: 10px;
+}
+
+.planet .planet-name, .moon .moon-name {
+  font-size: 16px;
+}
+
+.planet .planet-name, .moon .planet-name {
+  margin-bottom: 10px;
+}
+
+.age {
+  font-size: 28px;
+}
+
+.birthday {
+  font-size: 18px;
+}
+
+.birthday-today {
+  color: #FFFF66;
+}
+
+.birthday-tomorrow {
+  color: #A6FFFF;
+}
+
+.mercury .planet-image {
+  background-image: url("./img/mercury.png");
+}
+
+.venus .planet-image {
+  background-image: url("./img/venus.png");
+}
+
+.earth .planet-image {
+  background-image: url("./img/earth.png");
+}
+
+.mars .planet-image {
+  background-image: url("./img/mars.png");
+}
+
+.jupiter .planet-image {
+  background-image: url("./img/jupiter.png");
+}
+
+.saturn .planet-image {
+  background-image: url("./img/saturn.png");
+}
+
+.uranus .planet-image {
+  background-image: url("./img/uranus.png");
+}
+
+.neptune .planet-image {
+  background-image: url("./img/neptune.png");
+}
+
+.pluto .planet-image {
+  background-image: url("./img/pluto.png");
+}
+
+.luna .moon-image {
+  background-image: url("./img/luna.png");
+}
+
+.deimos .moon-image {
+  background-image: url("./img/deimos.png");
+}
+
+.io .moon-image {
+  background-image: url("./img/io.png");
+}
+
+.europa .moon-image {
+  background-image: url("./img/europa.png");
+}
+
+.ganymede .moon-image {
+  background-image: url("./img/ganymede.png");
+}
+
+.callisto .moon-image {
+  background-image: url("./img/callisto.png");
+}
+
+.enceladus .moon-image {
+  background-image: url("./img/enceladus.png");
+}
+
+.tethys .moon-image {
+  background-image: url("./img/tethys.png");
+}
+
+.dione .moon-image {
+  background-image: url("./img/dione.png");
+}
+
+.rhea .moon-image {
+  background-image: url("./img/rhea.png");
+}
+
+.titan .moon-image {
+  background-image: url("./img/titan.png");
+}
+
+.iapetus .moon-image {
+  background-image: url("./img/iapetus.png");
+}
+
+.miranda .moon-image {
+  background-image: url("./img/miranda.png");
+}
+
+.ariel .moon-image {
+  background-image: url("./img/ariel.png");
+}
+
+.umbriel .moon-image {
+  background-image: url("./img/umbriel.png");
+}
+
+.titania .moon-image {
+  background-image: url("./img/titania.png");
+}
+
+.oberon .moon-image {
+  background-image: url("./img/oberon.png");
+}
+
+.triton .moon-image {
+  background-image: url("./img/triton.png");
+}
+
+.charon .moon-image {
+  background-image: url("./img/charon.png");
+}
